@@ -20,6 +20,11 @@ dependencies = [
   "PyYAML>=5.3.1",
 ]
 
+[project.urls]
+Homepage = "https://github.com/cz1073755937/SCD-Det"
+Repository = "https://github.com/cz1073755937/SCD-Det"
+Paper = "https://doi.org/10.1007/s11554-026-01982-1"
+
 [project.optional-dependencies]
 test = ["pytest>=7"]
 

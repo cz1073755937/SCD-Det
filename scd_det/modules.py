@@ -1,6 +1,6 @@
 """Core SCD-Det feature modules.
 
-The implementation matches the architecture used for the revision experiments:
+The implementation uses the final SCD-Det configuration:
 FREG (k=12, S=10, 8 heads, ratio=0.25), CEBA (9x9 context kernel),
 and UMA aligned to P3. Parameters remain configurable for ablation studies.
 """

@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the SCD-Det manuscript and this code release."
+message: "If you use SCD-Det, please cite the published article in preferred-citation."
 title: "SCD-Det: Public Research Implementation"
 type: software
 version: 0.1.0
 repository-code: "https://github.com/cz1073755937/SCD-Det"
-date-released: 2026-08-12
+date-released: "2026-10-12"
 authors:
   - family-names: Chen
     given-names: Zhi
@@ -13,3 +13,21 @@ authors:
   - family-names: Gong
     given-names: Rongfen
 license: AGPL-3.0-only
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Chen
+      given-names: Zhi
+    - family-names: Chu
+      given-names: Maoxiang
+    - family-names: Gong
+      given-names: Rongfen
+  title: "SCD-Det: a scale-consistent detector for dense small objects in industrial production lines"
+  journal: "Journal of Real-Time Image Processing"
+  volume: "23"
+  year: 2026
+  month: 9
+  date-published: "2026-09-23"
+  doi: "10.1007/s11554-026-01982-1"
+  url: "https://link.springer.com/article/10.1007/s11554-026-01982-1"
+  notes: "Article number 187."

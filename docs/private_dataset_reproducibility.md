@@ -1,6 +1,8 @@
 # Reproducibility when images cannot be released
 
-MCDD and WDD remain private. The repository should not imply that third parties can reproduce their exact benchmark numbers. A useful and defensible data statement can still provide:
+MCDD and WDD are not bundled with this repository. As stated in the [published paper](https://doi.org/10.1007/s11554-026-01982-1), they are available upon reasonable request to the corresponding author, Rongfen Gong ([fx_gong@hotmail.com](mailto:fx_gong@hotmail.com)).
+
+Code availability alone does not provide the private images or guarantee reproduction of their exact benchmark numbers. Dataset documentation can still provide:
 
 - why the data cannot be shared (industrial confidentiality, ownership, or privacy);
 - acquisition device and environment at a non-identifying level;
