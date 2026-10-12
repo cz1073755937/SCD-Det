@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scd-det"
+version = "0.1.0"
+description = "Public research implementation of SCD-Det"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "AGPL-3.0-only"}
+authors = [
+  {name = "Zhi Chen"},
+  {name = "Maoxiang Chu"},
+  {name = "Rongfen Gong"},
+]
+dependencies = [
+  "ultralytics==8.3.175",
+  "torch>=1.8",
+  "PyYAML>=5.3.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["scd_det*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

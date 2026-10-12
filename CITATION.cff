@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the SCD-Det manuscript and this code release."
+title: "SCD-Det: Public Research Implementation"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/cz1073755937/SCD-Det"
+date-released: 2026-08-12
+authors:
+  - family-names: Chen
+    given-names: Zhi
+  - family-names: Chu
+    given-names: Maoxiang
+  - family-names: Gong
+    given-names: Rongfen
+license: AGPL-3.0-only

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+vendor/
+runs/
+datasets/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.csv
+*.log
+.idea/
+.vscode/

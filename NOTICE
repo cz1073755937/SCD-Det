@@ -1,0 +1,8 @@
+SCD-Det public research implementation
+
+The integration patch targets Ultralytics 8.3.175. Ultralytics source code and
+its notices are not copied into this repository; users obtain it separately.
+The combined work is distributed under GNU AGPL-3.0-compatible terms.
+
+No private dataset, annotation, checkpoint, reviewer correspondence, or
+confidential industrial image is licensed or distributed by this repository.
